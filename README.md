@@ -43,5 +43,7 @@ Through building this, I’ve gained a deeper understanding of:
     How Redux empowers clean, predictable state flow across an entire app
 
 To Run this:
-  npm install
-  npm run dev
+
+    npm install 
+
+    npm run dev
