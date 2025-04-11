@@ -1,12 +1,47 @@
-# React + Vite
+A simple but powerful Todo app built with React and Redux Toolkit to demonstrate clean global state management, reducer-based updates, and local persistence.
+ Tech Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    React (with hooks)
 
-Currently, two official plugins are available:
+    Redux Toolkit (createSlice, configureStore)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+    React-Redux (useSelector, useDispatch)
 
-## Expanding the ESLint configuration
+    LocalStorage (for persistence)
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ What This App Demonstrates
+
+This project is designed to showcase a solid understanding of Redux and modern state management in a React application.
+ Key Concepts Covered:
+
+    Setting up a Redux store using configureStore
+
+    Organizing logic into modular slices using createSlice
+
+    Using reducers to handle state changes predictably
+
+    Accessing state globally with useSelector
+
+    Updating state with dispatch
+
+    Managing derived UI state (filtering, editing)
+
+    Persisting Redux state to localStorage
+
+    Clean component design using local + global state together
+
+What I’ve Learned
+
+Through building this, I’ve gained a deeper understanding of:
+
+    How to structure Redux logic in real-world apps
+
+    When and why to use Redux over useState or Context
+
+    The importance of normalized, centralized state for scalability
+
+    How Redux empowers clean, predictable state flow across an entire app
+
+To Run this:
+  npm install
+  npm run dev
